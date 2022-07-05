@@ -18,6 +18,9 @@
     <ClCompile Include="tutorial2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="p2q4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tutorial2.h">

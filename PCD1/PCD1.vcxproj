@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="p2q4.c" />
     <ClCompile Include="tutorial2.c" />
   </ItemGroup>
   <ItemGroup>
