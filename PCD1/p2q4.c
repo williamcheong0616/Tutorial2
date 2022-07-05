@@ -1,6 +1,6 @@
 /*
-Program Filename : P2Q3
-Purpose			 : CONVERT HEIGHT FROM CENTIMETERS TO INCHES
+Program Filename : P2Q4
+Purpose			 : 
 */
 #include<stdio.h>
 #include<stdlib.h>
@@ -10,7 +10,8 @@ void main(void)
 {
 	//Variable declaration
 	char firstName[11], lastName[21];
-	int	 heightCM;
+	int	heightCM;
+	int	ageInYears, ageInDays;
 	double heightIN;
 
 	//input
@@ -24,12 +25,17 @@ void main(void)
 	printf("Enter your height in \"cm\" : ");
 	scanf("%d", &heightCM);
 
+	printf("Enter your age in \"years\" :");
+	scanf("%d", &ageInYears);
+
 	//process
 	heightIN = heightCM / 2.54;
+	ageInDays = ageInYears * 365;
 
 	//Output
 	printf("\n %s %s \n", firstName, lastName);
 	printf("your height is \t %f inches.\n", heightIN);
+	printf("Your age is %d days!!!\n");
 
 	system("pause");
 
